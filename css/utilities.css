@@ -21,6 +21,10 @@
   margin: 10px;
 }
 
+.active{
+  border-bottom: 2px solid #fff;
+}
+
 
 /*
 *****************************
