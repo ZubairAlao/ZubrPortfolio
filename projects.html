@@ -6,7 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css"><script src="css/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+	</script>
 	<title>Portfolio | ZubrScript</title>
 </head>
 <body>
@@ -22,11 +29,13 @@
 						<li><a href="contact.html">Contact</a></li>
 						<li><a href="projects.html">Projects</a></li>
 					</ul>
+					<label id="icon"><i class="fas fa-bars fa-2x"></i></label>
 				</nav>
 			</div>
 		</div>
 	<!-- Navigation ends -->
 	</header>
+	
 	<!-- Projects Starts -->
 	<section class="projects bg-primary">
 		<div class="container">
